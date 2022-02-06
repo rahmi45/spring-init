@@ -12,4 +12,14 @@ public class TestingController {
     public String getName(){
         return "I am Rachid !!!";
     }
+
+    @GetMapping("/age")
+    public String getAge(){
+        return "45";
+    }
+
+    @GetMapping("/address")
+    public String getAddress(){
+        return "Loiret";
+    }
 }
